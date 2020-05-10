@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+
+.movie-item{
+  display: flex;
+  margin: 10rpx 15rpx;
+  padding: 10px;
+  justify-content: space-between;
+  border: 1px solid #EEEEEE;
+}
+
+.movie-cover{
+  width: 280rpx;
+}
+
+.movie-info{
+  width: 380rpx;
+}
+
+.movie-title{
+  color: #666666;
+  font-size: 40rpx;
+  font-weight: bolder;
+  margin-bottom: 20rpx;  
+}
+
+.movie-btn{
+  margin-top: 30rpx;
+}

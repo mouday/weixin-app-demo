@@ -1,0 +1,12 @@
+<view wx:for="{{list}}" wx:key="index">
+  <view class="movie-item" >
+    <image src="{{item.cover}}" class="movie-cover"></image>
+    <view class="movie-info">
+      <view class="movie-title">{{item.name}}</view>
+      <view class="movie-date">上映日期：{{item.open_date}}</view>
+      <view class="movie-btn">
+      <van-button data-movieid="{{item._id}}" bindtap="handleItemClick">详情</van-button>
+      </view>
+    </view>
+  </view>
+</view>

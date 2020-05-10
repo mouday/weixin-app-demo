@@ -1,0 +1,18 @@
+/* pages/comment/comment.wxss */
+
+.movie-item{
+  margin: 10rpx auto;
+
+}
+
+.movie-cover{
+  width: 700rpx;
+}
+
+.movie-title{
+  font-size: 40rpx;
+}
+
+.item-cell{
+  margin: 20rpx auto;
+}

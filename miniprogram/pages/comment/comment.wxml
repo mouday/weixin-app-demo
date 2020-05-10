@@ -1,0 +1,11 @@
+<view class="movie-item">
+  <image src="{{detail.cover}}" class="movie-cover"></image>
+  <view class="movie-info">
+    <view class="movie-title">{{detail.name}}</view>
+    <view class="movie-date">上映日期：{{detail.open_date}}</view>
+
+    <view class="item-cell"><van-rate value="{{ value }}" bind:change="onChange" /></view>
+    <view class="item-cell"><van-button type="danger" bind:click="handleSubmit">提交评价</van-button></view>
+    
+  </view>
+</view>

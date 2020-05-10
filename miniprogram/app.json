@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "最新电影",
+    "navigationBarTextStyle": "white"
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about-active.png"
+      }
+    ]
+  }
+  
+}
